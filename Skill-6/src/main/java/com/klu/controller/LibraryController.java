@@ -9,6 +9,7 @@ import com.klu.model.Book;
 import com.klu.service.BookService;
 
 @RestController
+@RequestMapping("/welcome")
 public class LibraryController {
 
 	@Autowired

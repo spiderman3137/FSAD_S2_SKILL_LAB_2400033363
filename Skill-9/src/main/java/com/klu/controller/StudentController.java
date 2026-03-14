@@ -8,6 +8,7 @@ import com.klu.model.Student;
 import com.klu.service.StudentService;
 
 @RestController
+@RequestMapping("/sai")
 public class StudentController {
 
     @Autowired
